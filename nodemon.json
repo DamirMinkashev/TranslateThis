@@ -1,7 +1,7 @@
 {
-    "ignore": ["**/*.test.ts", "**/*.spec.ts", "node_modules"],
-    "watch": ["nest"],
-    "exec": "npm start",
+    "ignore": ["node_modules"],
+    "watch": ["app"],
+    "exec": "yarn start",
     "ext": "ts",
     "protocol": "inspector"
 }
